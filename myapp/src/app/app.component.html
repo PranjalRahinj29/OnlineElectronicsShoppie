@@ -1,0 +1,36 @@
+
+
+<!---<app-customer-login></app-customer-login>
+<app-customer-register></app-customer-register>
+<app-category-add></app-category-add>-->
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Online Electronics Shoppiee</a>
+        </div>
+  
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a routerLink="/customer-login">Login</a></li>
+            <li><a routerLink="/customer-register">Registration</a></li>
+            <li><a routerLink="/app-category-add">Category Add</a></li>
+            <li><a routerLink="/app-category-list">Category list</a></li>
+            <li><a routerLink="/app-product-add">Add Product</a></li>
+            <li><a routerLink="/app-product-list">List Product</a></li>
+            
+            
+
+          </ul>
+        </div>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+  

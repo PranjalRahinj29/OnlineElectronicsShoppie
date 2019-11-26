@@ -1,0 +1,39 @@
+<h1>Add Product</h1>
+
+<div class="form">
+  <div class="form-group">
+    <label for="">Product_Name</label>
+    <input [(ngModel)]="product_name" type="text" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="">Product_Description</label>
+    <textarea [(ngModel)]="product_description" rows="5" class="form-control"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="">Shipment_Id</label>
+    <input [(ngModel)]="shipment_id" type="text" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for=""> Product_Price</label>
+    <input [(ngModel)]=" product_price" type="text" class="form-control">
+  </div> 
+  <div class="form-group">
+    <label for=""> subcategory_id</label>
+    <input [(ngModel)]=" subcategory_id" type="text" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for=""> thumbnail</label>
+    <input [(ngModel)]=" thumbnail" type="text" class="form-control">
+  </div>
+
+
+  <div class="form-group">
+    <label for="">Category</label>
+    <input [(ngModel)]=" category_id" type="text" class="form-control">
+    
+  </div>
+  <div class="form-group">
+    <button (click)="onAdd()" class="btn btn-success">Add</button>
+    <button routerLink="/app-product-list" style="margin-left: 10px" class="btn btn-danger">Cancel</button>
+  </div>
+</div>
