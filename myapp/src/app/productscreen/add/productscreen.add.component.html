@@ -1,0 +1,23 @@
+<h1>Products</h1>
+<div>
+<style> 
+    marquee {
+      width: 100%;
+      padding: 10px 0;
+      background-color:azure;
+      size: 150px;
+    }
+  </style>
+  <marquee direction="scroll">Products</marquee>
+</div>
+
+
+
+
+<div *ngFor="let product of products">
+  <div (click)="showAllProducts(product.product_id)" class="col-md-3 product">
+      <img src="http://localhost:4000/{{product.thumbnail}}" alt="">
+    <div class="product_name">{{product.product_name}}</div>
+  
+  </div>
+</div>

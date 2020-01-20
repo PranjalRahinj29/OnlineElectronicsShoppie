@@ -1,0 +1,34 @@
+<!-- <h1>Product Description details </h1> -->
+<div class="row" *ngIf="product!= undefined"></div>
+
+<div style="margin-top: 200px;" class="row">
+    <div class="col-md-4">
+        <img src="http://localhost:4000/{{product.thumbnail}}" alt="">
+      </div>
+        <div class="col-md-8">
+            <div class="row">
+                <div style="font-size: x-large; color: black;" class="col-md-12">
+                 {{product.product_name}}
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <strong style="color: black; font-size: medium;">Description : </strong> {{product.product_description}}
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <strong style="color: black;font-size: medium;">Price : </strong> {{product.product_price}}
+                </div>
+              </div>
+              
+    
+              
+              <div class="row">
+                <div class="col-md-12">
+                    <button class="btn btn-primary" style="width: 360px ;" (click)="onAddToCart(product.product_name,product.product_price)">Add To Cart</button>
+                    <button class="btn btn-warning" style="width: 360px; margin-left: 10px;">Buy Now</button>
+                </div>
+              </div>
+            </div>
+    </div>

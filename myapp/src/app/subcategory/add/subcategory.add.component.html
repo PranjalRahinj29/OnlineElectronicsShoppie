@@ -1,0 +1,32 @@
+<h1>Add SubCategory</h1>
+
+
+<div class="form">
+  <div class="form-group">
+    <label for="">Subcategory Id</label>
+    <input [(ngModel)]="subcategory_id" type="text" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="">Subcategory Name</label>
+    <textarea [(ngModel)]="subcategory_name" rows="5" class="form-control"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="">Category Id</label>
+    <input [(ngModel)]="category_id" type="text" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for=""> offer Id</label>
+    <input [(ngModel)]=" offer_id" type="text" class="form-control">
+  </div> 
+  
+
+
+
+  <div class="form-group">
+    <button (click)="onAdd()" class="btn btn-success">Add</button>
+    <button routerLink="/app-subcategory-list" style="margin-left: 10px" class="btn btn-danger">Cancel</button>
+  </div>
+</div>
+
+
+

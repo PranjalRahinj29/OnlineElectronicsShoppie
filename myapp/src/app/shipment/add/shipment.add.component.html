@@ -1,0 +1,19 @@
+<h1>Add Shipment</h1>
+
+
+<div class="form">
+  
+  <div class="form-group">
+    <label for="">Shipment Name </label>
+    <textarea [(ngModel)]="shipment_name" rows="5" class="form-control"></textarea>
+  </div>
+  
+  
+
+
+
+  <div class="form-group">
+    <button (click)="onAdd()" class="btn btn-success">Add</button>
+    <button routerLink="/app-shipment-list" style="margin-left: 10px" class="btn btn-danger">Cancel</button>
+  </div>
+</div>

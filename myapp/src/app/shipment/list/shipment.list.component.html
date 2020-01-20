@@ -1,0 +1,31 @@
+<h1>Shipment List</h1>
+
+<button routerLink="/app-shipment-add" class="btn btn-primary pull-right add-category" style="margin-bottom:10px">Add shipment</button>
+
+<h4 *ngIf="shipments.length == 0">There are no shipments. Please use the button Add shipments to add one.</h4>
+
+<table *ngIf="shipments.length > 0" class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>No</th>
+      <th>shipment Id</th>
+      <th>Shipment Name</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let shipment of shipments; let index = index">
+      <td>{{index + 1}}</td>
+      <td>{{shipment.shipment_id}}</td>
+      <td>{{shipment.shipment_name}}</td>
+      <td>
+          <button (click)="onDelete(shipment.shipment_id)" class="btn btn-danger">
+            <i class="glyphicon glyphicon-trash"></i>
+          </button>
+          <button (click)="onUpdate()" class="btn btn-warning" style="margin-left: 10px;">
+            <i class="glyphicon glyphicon-pencil"></i>
+          </button>
+      </td>
+    </tr>
+  </tbody>
+</table>

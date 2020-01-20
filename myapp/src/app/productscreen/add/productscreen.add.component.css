@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+  }
+  
+  
+  
+  .showAllProducts {
+    border: solid 2px black;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  img{
+      width: 150px;
+      height: 200px;
+      
+  }
+  
+  

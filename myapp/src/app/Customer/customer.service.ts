@@ -1,17 +1,30 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { ActivatedRouteSnapshot, CanActivate, RouterStateSnapshot } from '@angular/router';
+
 
 @Injectable()
-export class CustomerService {
+export class CustomerService implements CanActivate  {
 
   url = 'http://localhost:4000/Customer'
 
   constructor(private http: HttpClient) { }
+  canActivate(route:ActivatedRouteSnapshot, state:RouterStateSnapshot)
+  {
+    if(sessionStorage['login_status']=='1'){
+      // if(localStorage['login_status']=='1'){
+       return true
+   }
+
+  // this.router.navigate(['/app-category-list'])
+   return false
+       }        
 
   login(email: string, password: string) {
     const body = {
       email: email,
-      password: password
+      password: password,
+     
     }
 
     return this.http.post(this.url + '/login', body)

@@ -1,0 +1,20 @@
+<h1>Add Offer</h1>
+
+
+<div class="form">
+  
+  <div class="form-group">
+    <label for="">Offer Details</label>
+    <textarea [(ngModel)]="offer_detail" rows="5" class="form-control"></textarea>
+  </div>
+  
+  
+
+
+
+  <div class="form-group">
+    <button (click)="onAdd()" class="btn btn-success">Add</button>
+    <button routerLink="/app-offer-list" style="margin-left: 10px" class="btn btn-danger">Cancel</button>
+  </div>
+</div>
+

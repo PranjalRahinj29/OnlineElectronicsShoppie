@@ -1,0 +1,31 @@
+<h1>Offer List</h1>
+
+<button routerLink="/app-offer-add" class="btn btn-primary pull-right add-category" style="margin-bottom: 10px">Add Offer</button>
+
+<h4 *ngIf="offers.length == 0">There are no offers. Please use the button Add offer to add one.</h4>
+
+<table *ngIf="offers.length > 0" class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>No</th>
+      <th>Offer id</th>
+      <th>Offer Details</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let offer of offers; let index = index">
+      <td>{{index + 1}}</td>
+      <td>{{offer.offer_id}}</td>
+      <td>{{offer.offer_detail}}</td>
+      <td>
+          <button (click)="onDelete(offer.offer_id)" class="btn btn-danger">
+            <i class="glyphicon glyphicon-trash"></i>
+          </button>
+          <button (click)="onUpdate()" class="btn btn-warning" style="margin-left: 10px;">
+            <i class="glyphicon glyphicon-pencil"></i>
+          </button>
+      </td>
+    </tr>
+  </tbody>
+</table>

@@ -15,6 +15,13 @@
           <label for="">Pasword</label>
           <input [(ngModel)]="password" type="password" class="form-control">
         </div>
+        <div class="form-group">
+            <div class="checkbox">
+              <label>
+                <input [(ngModel)]="rememberme" type="checkbox"> Remember me ?
+              </label>
+            </div>
+          </div>
 
         <div class="form-group">
           <button (click)="onLogin()" class="btn btn-success">Login</button>

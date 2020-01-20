@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class ProductListComponent implements OnInit {
 
-  products: any[] = []
+  products: any[] 
 
   constructor(
     private router: Router,
@@ -35,7 +35,18 @@ export class ProductListComponent implements OnInit {
   onAddProduct() {
     this.router.navigate(['/product-add'])
   }
+  onDelete(product_id:number)
+  {
+    this.service
+      .deleteProduct(product_id)
+      .subscribe(response => {
+        if (response['status'] == 'success') {
+          this.loadAllProducts()
+        } else {
+          console.log(response['error'])
+        }
+      })
 
   
-
+    }
 }

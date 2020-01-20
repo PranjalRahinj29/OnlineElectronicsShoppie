@@ -13,9 +13,10 @@ export class CategoryListComponent implements OnInit {
 
   constructor(
     private router: Router,
-    private categoryService: CategoryService) {
+    private categoryService: CategoryService) 
+    {
       this.loadCategories()
-  }
+    }
 
   loadCategories() {
     this.categoryService

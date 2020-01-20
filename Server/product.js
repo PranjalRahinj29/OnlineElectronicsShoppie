@@ -1,6 +1,8 @@
 const db = require('./db')
 const utils = require('./utils')
 const express = require('express')
+const multer =require('multer')
+const upload=multer({ dest: './Imageimg/'})
 
 const router = express.Router()
 
@@ -13,9 +15,9 @@ router.get('/', (request, response) => {
     })
 })
 
-router.post('/', (request, response) => {
-    const {product_name, shipment_id,product_price,product_description,category_id,subcategory_id,thumbnail} = request.body
-
+router.post('/',upload.single('thumbnail'), (request, response) => {
+    const {product_name, shipment_id,product_price,product_description,category_id,subcategory_id} = request.body
+    const thumbnail=request.file.filename
     const connection = db.connect()
     const statement = `insert into Product (product_name, shipment_id,product_price,product_description,category_id,subcategory_id,thumbnail) values ('${product_name}',${shipment_id},${product_price},'${product_description}',${category_id},${subcategory_id},'${thumbnail}')`
     connection.query(statement, (error, data) => {

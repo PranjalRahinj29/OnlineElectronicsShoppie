@@ -1,9 +1,10 @@
 <h1>Product List</h1>
-
+<div class="col-md-1"></div>
+<div class="col-md-10">
 <button routerLink="/app-product-add" class="btn btn-primary pull-right add-product">Add Product</button>
 
-<h4 *ngIf="products.length == 0">There are no products....</h4>
-<table *ngIf="products.length > 0" class="table table-striped table-bordered">
+
+<table class="table table-striped table-bordered">
   <thead>
     <tr>
       <th>No</th>
@@ -26,9 +27,9 @@
       <td>{{product.product_description}}</td>
       <td>{{product.category_id}}</td>
       <td>{{product.subcategory_id}}</td>
-      <td>{{product.thumbnail}}</td>
+      <td><img src="http://localhost:4000/{{product.thumbnail}}" alt=""></td>
       <td>
-        <button (click)="onDelete(product_id)" class="btn btn-danger">
+        <button (click)="onDelete(product.product_id)" class="btn btn-danger">
           <i class="glyphicon glyphicon-trash"></i>
         </button>
         <button (click)="onUpdate()" class="btn btn-warning" style="margin-left: 10px;">
@@ -38,3 +39,5 @@
     </tr>
   </tbody>
 </table>
+</div>
+<div class="col-md-1"></div>

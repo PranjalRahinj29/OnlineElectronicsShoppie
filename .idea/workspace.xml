@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ac8859d6-c9ee-4d92-a83a-68ecdaf353fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myapp/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sunbeam/myapplication/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sunbeam/myapplication/Activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1181488705">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="5" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="5" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="322" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="322" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sunbeam/myapplication/Adapter/ProductAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="25" column="94" selection-start-line="25" selection-start-column="94" selection-end-line="25" selection-end-column="94" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/recyclerview_item_product.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sunbeam/myapplication/Activity/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sunbeam/myapplication/model/Product.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sunbeam/myapplication/utils/Constants.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sunbeam/myapplication/utils/Utils.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sunbeam/myapplication/Adapter/ProductAdapter.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1131" />
+    <option name="height" value="641" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sunbeam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sunbeam" type="462c0819:PsiDirectoryNode" />
+              <item name="myapplication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sunbeam" type="462c0819:PsiDirectoryNode" />
+              <item name="myapplication" type="462c0819:PsiDirectoryNode" />
+              <item name="Activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sunbeam" type="462c0819:PsiDirectoryNode" />
+              <item name="myapplication" type="462c0819:PsiDirectoryNode" />
+              <item name="Adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sunbeam" type="462c0819:PsiDirectoryNode" />
+              <item name="myapplication" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sunbeam" type="462c0819:PsiDirectoryNode" />
+              <item name="myapplication" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidApp" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OnlineElectronicsShoppie" type="1abcf292:AndroidViewProjectNode" />
+              <item name="OnlineElectronicsShoppie" type="e9137016:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/android_sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac8859d6-c9ee-4d92-a83a-68ecdaf353fd" name="Default Changelist" comment="" />
+      <created>1574826282015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574826282015</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <layout>
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.33599362" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" visible="true" weight="0.32952693" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Preview" order="3" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sunbeam/myapplication/Adapter/ProductAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="25" column="94" selection-start-line="25" selection-start-column="94" selection-end-line="25" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidApp/app/src/main/res/layout/recyclerview_item_product.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sunbeam/myapplication/Activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sunbeam/myapplication/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sunbeam/myapplication/utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidApp/app/src/main/java/com/sunbeam/myapplication/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { CategoryService } from '/home/pranjal/Project/myapp/src/app/category/category.service'
 import { ProductService } from '../product.service';
 import { Router } from '@angular/router';
+import { CategoryService } from 'src/app/category/category.service';
 
 @Component({
   selector: 'app-product-add',
@@ -44,6 +44,9 @@ export class ProductAddComponent implements OnInit {
   }
 
   ngOnInit() { }
+  onSelectFile(event) {
+    this.thumbnail = event.target.files[0]
+  }
 
   onAdd() {
     // console.log('title: ', this.title)
@@ -56,7 +59,7 @@ export class ProductAddComponent implements OnInit {
       .subscribe(response => {
         if (response['status'] == 'success') {
           alert('added product')
-          this.router.navigate(['/product-list'])
+          this.router.navigate(['/app-product-list'])
         } else {
           alert('error while adding product')
           console.log(response['error'])

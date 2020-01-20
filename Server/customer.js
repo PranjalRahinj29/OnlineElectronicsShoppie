@@ -40,6 +40,7 @@ router.post('/login', (request, response) => {
                
                 email: user['email'],
                 password: user['password'],
+                customer_id:user['customer_id']
             }
             response.send(utils.createResult(null, info))
         }
