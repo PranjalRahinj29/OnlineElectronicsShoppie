@@ -1,4 +1,0 @@
-#Mon Jan 20 18:54:41 IST 2020
-base.0=/home/pranjal/Project/GIT_Project/OnlineElectronicsShoppie/AndroidApp/app/build/intermediates/transforms/dexMerger/debug/6
-path.0=classes.dex
-renamed.0=classes.dex
